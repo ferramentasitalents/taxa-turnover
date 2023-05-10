@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KPI de Taxa de Aceitação de Proposta de Trabalho</title>
+  <link href="https://ferramentasitalents.github.io/taxa-turnover/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/taxa-turnover/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <h3>Taxa de Aceitação de Proposta de Trabalho</h3>
+    <br>
+    <form onsubmit="calculateRate(); return false;">
+      <label>Número de propostas de trabalho aceitas:</label>
+      <input type="number" id="num-aceitas" required>
+      <br>
+      <br>
+      <label>Número total de propostas de trabalho feitas:</label>
+      <input type="number" id="num-feitas" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
