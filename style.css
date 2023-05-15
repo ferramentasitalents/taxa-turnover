@@ -9,14 +9,6 @@ body {
   padding: 20px;
   background-color: #fff;
 }
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #002754;
- }
 label {
   display: block;
   margin-bottom: 10px;
