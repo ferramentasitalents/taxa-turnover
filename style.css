@@ -17,6 +17,7 @@ label {
   display: block;
   margin-bottom: 10px;
 }
+
 input[type="number"] {
   width: 100%;
   padding: 10px;
@@ -25,6 +26,7 @@ input[type="number"] {
   font-size: 16px;
   box-sizing: border-box;
 }
+
 button[type="submit"] {
   display: block;
   margin-top: 20px;
@@ -38,9 +40,11 @@ button[type="submit"] {
   cursor: pointer;
   transition: background-color 0.2s;
 }
+
 button[type="submit"]:hover {
   background-color: #0062cc;
 }
+
 #result {
   margin-top: 20px;
   font-size: 24px;
